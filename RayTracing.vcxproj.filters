@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Code\Color.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Equation.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\main.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Vec3.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Ray.c">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Color.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Equation.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Material.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Math.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Model.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Vec3.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BasicTypes.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Ray.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Third\stb_image_write.h">
+      <Filter>Third</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{799b9aff-34f7-4545-9e73-348add2049fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third">
+      <UniqueIdentifier>{e39622f1-70c4-41f0-969b-6851949bfca1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
