@@ -71,7 +71,7 @@ Vec3 Vec3_Reflect(Vec3 vIn, Vec3 vNormal) {
 
 #include <stdlib.h> // For rand() and RAND_MAX
 static inline float GaussRand() {
-	return sqrtf(-2.f * logf((float)rand() / (float)RAND_MAX)) * cosf(2.f * 3.1415926f * ((float)rand() / (float)RAND_MAX));
+	return sqrtf(-2.f * logf((float)(rand() + 1) / (float)(RAND_MAX + 1))) * cosf(2.f * 3.1415926f * ((float)rand() / (float)RAND_MAX));
 }
 
 Vec3 Vec3_RandomDirection() {
